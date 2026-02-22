@@ -47,7 +47,7 @@ while True:
 
         if sssa.is_element_present('button:contains("Accept")'):
             sssa.cdp.click('button:contains("Accept")', timeout=4)
-        sssa.cdp.get('https://store.steampowered.com/app/1836560/Aether__Iron/?%20utm_source=Influencer&utm_medium=bonus_demo&utm_ca%20mpaign=brutalles')
+        #sssa.cdp.get('https://store.steampowered.com/app/1836560/Aether__Iron/?%20utm_source=Influencer&utm_medium=bonus_demo&utm_ca%20mpaign=brutalles')
         if sssa.is_element_present("#live-channel-stream-information"):
             sssa.cdp.get('https://store.steampowered.com/app/1836560/Aether__Iron/?%20utm_source=Influencer&utm_medium=bonus_demo&utm_ca%20mpaign=brutalles')
             sssa.sleep(random.randint(5, 60))
